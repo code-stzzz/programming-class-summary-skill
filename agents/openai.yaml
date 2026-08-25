@@ -1,0 +1,7 @@
+interface:
+  display_name: "编程课总结归档"
+  short_description: "从编程课件生成可直接发群的知识点总结，并按课程版本归档到飞书知识库"
+  default_prompt: "使用 $programming-class-summary 把本节课资料整理成可直接发送到微信群的中文课堂总结，并归档到飞书。"
+
+policy:
+  allow_implicit_invocation: true
